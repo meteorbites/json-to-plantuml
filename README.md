@@ -1,6 +1,41 @@
 # json-to-plantuml
 Transforms JSON to Plant UML to help visualize your JSON data.
 
+
+## Example JSON data
+```javascript
+{
+    "name": "Product",
+    "properties": {
+        "id": {
+            "type": "number",
+            "description": "Product identifier",
+            "required": true
+        },
+        "name": {
+            "description": "Name of the product",
+            "type": "string",
+            "required": true
+        },
+        "price": {
+            "type": "number",
+            "minimum": 0,
+            "required": true
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}
+
+```
+
+## Example Plant UML outut
+![alt text](productdatabase.png)
+
 ## As CMD line tool
 
 ### Install
@@ -19,6 +54,10 @@ $ json-to-plantuml -f .\data\albumdata.json
 $ echo '{"foo": "bar"}' | json-to-plantuml | java -jar plantuml.jar -pipe > topo.png
 $ json-to-plantuml -f .\data\albumdata.json | java -jar plantuml.jar -pipe > topo.png
 ```
+
+
+![gif](jsontoplantuml.gif)
+
 
 ### Install Dependencies to generate image
 
