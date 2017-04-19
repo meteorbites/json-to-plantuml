@@ -84,3 +84,13 @@ jsonToPlantUml('{"foo":"bar"}')
 	.then(console.log)
 	.catch(console.log);
 ```
+
+### Output
+```
+@startuml
+class "root" as root {
+    .. Properties ..
+    foo: bar
+}
+@enduml
+```
