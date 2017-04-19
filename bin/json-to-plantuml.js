@@ -67,5 +67,3 @@ Note:
    json-to-plantuml also supports pipe in data.
    e.g. echo '{"foo": "bar"}' | json-to-plantuml`);
 }
-
-
