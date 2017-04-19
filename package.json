@@ -1,0 +1,32 @@
+{
+  "name": "json-to-plantuml",
+  "version": "0.0.1",
+  "description": "Visualize JSON data using Plant UML",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "json-to-plantuml": "./bin/json-to-plantuml.js"
+  },
+  "keywords": [
+    "JSON",
+    "UML",
+    "Plant",
+    "PlantUML"
+  ],
+  "author": "Donnie Gallardo",
+  "license": "MIT",
+  "dependencies": {
+    "byline": "^5.0.0",
+    "commander": "^2.9.0",
+    "handlebars": "^4.0.6",
+    "lodash": "^4.16.2",
+    "minimist": "^1.2.0",
+    "request": "^2.79.0",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
