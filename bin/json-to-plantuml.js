@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var _ = require("lodash"),
     plantumlify = require("../lib/plantumlify"),
     byline = require('byline'),
