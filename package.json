@@ -2,7 +2,7 @@
   "name": "json-to-plantuml",
   "version": "0.0.1",
   "description": "Visualize JSON data using Plant UML",
-  "main": "index.js",
+  "main": "./lib/plantumlify.js",
   "scripts": {
     "test": "mocha"
   },
@@ -17,7 +17,9 @@
     "JSON",
     "UML",
     "Plant",
-    "PlantUML"
+    "PlantUML",
+    "Visualize JSON",
+    "JSON to Plant UML"
   ],
   "author": "Donnie Gallardo",
   "license": "ISC",
