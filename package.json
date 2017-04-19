@@ -1,6 +1,6 @@
 {
   "name": "json-to-plantuml",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Visualize JSON data using Plant UML",
   "main": "./lib/plantumlify.js",
   "scripts": {
