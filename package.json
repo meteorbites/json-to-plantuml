@@ -9,6 +9,10 @@
   "bin": {
     "json-to-plantuml": "./bin/json-to-plantuml.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteorbites/json-to-plantuml.git"
+  },
   "keywords": [
     "JSON",
     "UML",
@@ -16,7 +20,11 @@
     "PlantUML"
   ],
   "author": "Donnie Gallardo",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meteorbites/json-to-plantuml/issues"
+  },
+  "homepage": "https://github.com/meteorbites/json-to-plantuml#readme",
   "dependencies": {
     "byline": "^5.0.0",
     "commander": "^2.9.0",
