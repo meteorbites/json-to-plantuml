@@ -33,7 +33,7 @@ Transforms JSON to Plant UML to help visualize your JSON data.
 
 ```
 
-## Example Plant UML outut
+## Example Plant UML output
 ![alt text](productdatabase.png)
 
 ## As CMD line tool
