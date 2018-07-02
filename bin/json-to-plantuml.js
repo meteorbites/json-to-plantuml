@@ -47,6 +47,12 @@ if (process.stdin.isTTY) {
     }).on("end", function () {
         jsonToPlantuml(input.join("\n"));
     });
+    
+    var txtFile = "output_json_to_plantuml.txt";
+    var file = new File(txtFile);
+    file.open("w"); // open file with write access
+    file.write(stream);
+    file.close();
 }
 
 function printHelp() {
